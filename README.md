@@ -12,10 +12,16 @@ Esta algoritmo toma como input la llave y hace lo siguiente
 
 Con esto tengo:
 PRIVATEKEY = La llave privada completa
+
 ADDRESS = La Address de mi Wallet ERC20
+
 MITAD1 = Los primeros 32 caracteres de la llave privada
+
 MITAD2 = Los segundos 32 caracteres de la llave privada
+
+
 PASSWORD = Una clave personal que usaré para encriptar estas partes.
+
 
 
 2.- La primera mitad, la encripto con AES256 y una llave personal PASSWORD y la guardo en un archivo llamado MD5(ADADRESS)
