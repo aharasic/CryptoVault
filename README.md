@@ -21,10 +21,15 @@ Esta algoritmo toma como input la llave y hace lo siguiente
 1.- Divide la llave en 2 strings de 32 caracteres cada uno.
 
 Con esto tengo:
+
 `PRIVATEKEY = La llave privada completa`
+
 `ADDRESS = La Address de mi Wallet ERC20`
+
 `MITAD1 = Los primeros 32 caracteres de la llave privada`
+
 `MITAD2 = Los segundos 32 caracteres de la llave privada`
+
 `PASSWORD = Una clave personal que usaré para encriptar estas partes.`
 
 
